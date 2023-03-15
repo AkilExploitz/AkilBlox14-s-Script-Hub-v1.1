@@ -1,0 +1,389 @@
+local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+local Window = Library.CreateLib("•°[AkilBlox14's Script Hub V1.1]°•", "Synapse")
+
+-- Tabs
+local Tab1 = Window:NewTab("[Update Logs]")
+local Tab2 = Window:NewTab("|Home|")
+local Tab3 = Window:NewTab("|Scripts|")
+local Tab4 = Window:NewTab("|FE Scripts|")
+local Tab5 = Window:NewTab("|Players|")
+local Tab6  = Window:NewTab("|Extras|")
+local Tab7  = Window:NewTab("Credits")
+local Tab8= Window:NewTab("? Help ?")
+
+-- Sections inside tabs
+local Tab1Section = Tab1:NewSection("[Update Logs]")
+local Tab1Section = Tab1:NewSection("Akil's Script Hub v1.1")
+local Tab1Section = Tab1:NewSection("-- Changes --")
+local Tab1Section = Tab1:NewSection("- New Theme")
+local Tab1Section = Tab1:NewSection("- Added 34+ Scripts")
+local Tab1Section = Tab1:NewSection("- New Tab Sections")
+local Tab1Section = Tab1:NewSection("- Updates Every Sat 12:00")
+local Tab1Section = Tab1:NewSection("- Added Players, Extras")
+local Tab1Section = Tab1:NewSection("Credits, Scripts, And Help.")
+local Tab1Section = Tab1:NewSection("Support Me By")
+local Tab1Section = Tab1:NewSection("Subscribing or")
+local Tab1Section = Tab1:NewSection("Following")
+local Tab2Section = Tab2:NewSection("|Home|")
+local Tab2Section = Tab2:NewSection("[Credits To")
+local Tab2Section = Tab2:NewSection("AkilBlox14]")
+local Tab3Section = Tab3:NewSection("|Game Scripts|")
+local Tab4Section = Tab4:NewSection("Required Hats")
+local Tab4Section = Tab4:NewSection("None Required Hats")
+local Tab5Section = Tab5:NewSection("Player")
+local Tab6Section = Tab6:NewSection("Extras")
+local Tab7Section = Tab7:NewSection("Credits To")
+local Tab7Section = Tab7:NewSection("AkilBlox14")
+local Tab7Section = Tab7:NewSection("And The")
+local Tab7Section = Tab7:NewSection("Ones Who")
+local Tab7Section = Tab7:NewSection("Made The")
+local Tab7Section = Tab7:NewSection("Scripts.")
+local Tab8Section = Tab8:NewSection("Need Help?")
+local Tab8Section = Tab8:NewSection("HELP FOR")
+local Tab8Section = Tab8:NewSection("FE SCRIPTS:")
+local Tab8Section = Tab8:NewSection("You Need To")
+local Tab8Section = Tab8:NewSection("Execute The")
+local Tab8Section = Tab8:NewSection("Netbypass Script")
+local Tab8Section = Tab8:NewSection("First Then")
+local Tab8Section = Tab8:NewSection("Execute Your FE")
+local Tab8Section = Tab8:NewSection("Script.")
+local Tab8Section = Tab8:NewSection("If Your Script")
+local Tab8Section = Tab8:NewSection("Needs Hats")
+local Tab8Section = Tab8:NewSection("You Have To Search")
+local Tab8Section = Tab8:NewSection("In Youtube")
+local Tab8Section = Tab8:NewSection("What Are The Hats")
+local Tab8Section = Tab8:NewSection("For The FE Script.")
+local Tab8Section = Tab8:NewSection("Scripts Not Working?")
+local Tab8Section = Tab8:NewSection("Contact Me In Tiktok.")
+local Tab8Section = Tab8:NewSection("My Tiktok User:")
+local Tab8Section = Tab8:NewSection("@noobination1")
+
+
+
+
+-- Buttons
+Tab1Section:NewButton("https://m.youtube.com/@sirapplebg434/featured", "Youtube Channel", function()
+    print("Akil's Yt Channel <3")
+end)
+
+Tab1Section:NewButton("Tiktok: @noobination1", "Tiktok Account", function()
+    print("UwU")
+end)
+
+
+
+-- Tab2
+Tab2Section:NewButton("Infinite Yield", "OP", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+Tab2Section:NewButton("Keyboard Script", "For FE Scripts", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+end)
+
+Tab2Section:NewButton("Players ESP", "You Can See People", function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/zachisfunny/esp-unversal/main/script'),true))()
+end)
+
+Tab2Section:NewButton("Better Roblox UI", "Better Gameplay", function()
+getgenv().DisableWebhook = false
+loadstring(game:HttpGet("https://eternityhub.xyz/BetterRoblox/Loader"))()
+end)
+
+Tab2Section:NewButton("VHub", "200+ Scripts In One", function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Veincx5315/Created/VHub/Simple'),true))()
+end)
+
+Tab2Section:NewButton("Netless/Netbypass GUI", "makes your body to be hard to fall apart.", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/ULA6Y3gH", true))()
+end)
+
+
+-- Tab3
+Tab3Section:NewButton("Starving Artist Script #1", "Can Bypass Anti Cheat", function()
+loadstring(game:HttpGet('https://scripts.hold4564.de/games/StarvingArtistAutoDraw.lua'))()
+end)
+
+Tab3Section:NewButton("Starving Artist Script #2", "Op", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Jeux45/Starving-Artist-script/main/Script", true))()
+end)
+
+Tab3Section:NewButton("Blox Fruits #1", "With Stupid Key.", function()
+loadstring(game:HttpGetAsync("https://gitlab.com/Sky2836/test/-/raw/main/Mobile"))()
+end)
+
+Tab3Section:NewButton("Blox Fruits #2", "HOHO HUB", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+end)
+
+Tab3Section:NewButton("VG Pls Donate Script", "Donation Game", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+end)
+
+Tab3Section:NewButton("Super Hero Tycoon", "Clingey Childhood", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/HkfCDTkz", true))()
+end)
+
+Tab3Section:NewButton("Funky Friday Script", "Most Op Script out here.", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/wally-rblx/funky-friday-autoplay/main/main.lua",true))()
+end)
+
+Tab3Section:NewButton("Bubble Gum Sim", "Many Feautures..", function()
+loadstring(game:HttpGet(("https://textbin.net/raw/t4jqgjsvfi"),true))()
+end)
+
+Tab3Section:NewButton("Steep Steps", "Keys Am I Right?", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Cutsences/SteepSteps/main/SteepSteps.lua'))()
+end)
+
+Tab3Section:NewButton("Slap Battles", "The Opiest", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/dizyhvh/rbx_scripts/main/dizzy_hub/scripts/slap_battles.lua"))()
+end)
+
+Tab3Section:NewButton("PET SIM X", "Kingdom Come", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/senpaigm/Cat-Hub/main/PetSimulatX.lua"))()
+end)
+
+
+
+-- Tab4
+Tab4Section:NewButton("FE Ananchored", "Troll", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/FYxcrR3i", true))()
+end)
+
+Tab4Section:NewButton("FE R15 Animations", "Perfect For Pls Dono", function()
+loadstring(game:HttpGet("https://gitlab.com/Tsuniox/lua-stuff/-/raw/master/R15GUI.lua"))()
+end)
+
+Tab4Section:NewButton("FE Neck Crack", "No Hats Required.", function()
+loadstring(game:HttpGet(("https://pastefy.ga/EPEGQhcP"),true))()
+end)
+
+Tab4Section:NewButton("FE Knife", "Hat Needed. The Key Is: Syntaxbesthub", function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Memeboiyot/SyntaxRebornOfficial/main/SyntaxReborn'),true))()
+end)
+
+Tab4Section:NewButton("FE Sussy Neko", "No Hats Required, Keyboard needed.", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Tescalus/Pendulum-Hubs-Source/main/Pendulum%20Hub%20V5.lua"))()
+end)
+
+Tab4Section:NewButton("FE R6 Animations", "R15 too.", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/TrixAde/Proxima-Hub/main/UniversalDance-AnimGui.lua'))()
+end)
+
+Tab4Section:NewButton("Note: These Scripts Might Need NetBypass/Netless.", "You Have To Execute The Netless GUI", function()
+    print("Attention!")
+end)
+
+Tab4Section:NewButton("FE Death Note", "No Hats! :D", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/Rz78nBym'),true))()
+end)
+
+Tab4Section:NewButton("FE Cuphead Lobber Gun", "Killable and no hats required.", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/ENQ5Dr03"))();
+end)
+
+Tab4Section:NewButton("FE The Rake", "Needs Keyboard, Keybinds In Chat", function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/myLKkZiB'),true))()
+end)
+
+Tab4Section:NewButton("FE Script Hub", "Fire X Hub", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/tyreltrijo/firex/main/firex'))()
+end)
+
+Tab4Section:NewButton("FE Minigun", "No Hats Required.", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/Sifa7h5Y'))()
+end)
+
+Tab4Section:NewButton("Oh. I Quit! It is so tireing to go in rekonise.", "*Sigh*", function()
+    print("GoodBye~")
+end)
+
+Tab4Section:NewButton("FE Printed Click", "Its Just Print. Check The /console", function()
+    print("LOL BATIG NAWONG BAHOG IGLOG DAGOK OTEN!!!! LOLLLLLLL XD :troll:")
+end)
+
+Tab4Section:NewButton("All Credits To The Owners!", "Warning: Cringe /console text 💀", function()
+    print("Mommy? What Is It Calliou??? Can I Have Roblox In My Pc?- Why Are You Wonnin? OTOG!")
+end)
+
+Tab4Section:NewButton("Ban Hammer v1 Remastered", "Hats Needed For This Script.", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/tHuSPru3'))()
+end)
+
+Tab4Section:NewButton("FE Kartic", "Hats Needed For This Script.", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/D6QQZmTY'))()
+end)
+
+
+Tab4Section:NewButton("FE Fling Fighter", "No Hats Required.", function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/PjJNLaFa'),true))()
+end)
+
+Tab4Section:NewButton("FE Parkour v3", "No Hats Required. Keybinds: Q.", function()
+loadstring(game:HttpGet(('https://pastefy.ga/Ucu1UkxZ/raw'),true))()
+end)
+
+Tab4Section:NewButton("FE Gyro's Sword", "Hat Needed For This Script.", function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/akJtVPbE'),true))()
+end)
+
+Tab4Section:NewButton("FE Swordsman", "Sword Required For This Script.", function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/0Ben1/fe./main/Sword%20man'),true))()
+end)
+
+Tab4Section:NewButton("FE Pandora", "No Hats Required, Needs Keyboard Script.", function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/VwN9kS8j'),true))()
+end)
+
+Tab4Section:NewButton("Fe Fling v2", "Press The Tool For Fling.", function()
+loadstring(game:HttpGet(('https://pastefy.ga/GvnHVjT5/raw'),true))()
+end)
+
+Tab4Section:NewButton("Fe sans fighter", "No Keybinds. You can just click a player to get flinged/killed.", function()
+loadstring(game:HttpGet(('https://pastefy.ga/SDVTqbWZ/raw'),true))()
+end)
+
+Tab4Section:NewButton("Universal Hub With FE Scripts", "Another Hub With Scripts And FE Scripts", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Dvrknvss/UniversalFEScriptHub/main/Script'))()
+end)
+
+
+-- Buttons/Windows/Sliders
+
+Tab5Section:NewButton("Inf Jumps", "Enables Inf Jumps", function()
+    local InfiniteJumpEnabled = true
+game:GetService("UserInputService").JumpRequest:connect(function()
+	if InfiniteJumpEnabled then
+		game:GetService"Players".LocalPlayer.Character:FindFirstChildOfClass'Humanoid':ChangeState("Jumping")
+	end
+end)
+end)
+
+Tab5Section:NewToggle("Fov", "Makes Your Screen Like A Speedrunner1!1!1!1", function(state)
+    if state then
+        game.Workspace.CurrentCamera.FieldOfView = 120
+    else
+        game.Workspace.CurrentCamera.FieldOfView = 80
+    end
+end)
+
+Tab5Section:NewSlider("Speed", "GOTTA GO FASTTT", 250, 120, function(v)
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = v
+end)
+
+
+
+-- Tab6
+Tab6Section:NewButton("Executer A Script Hub", "Credits To Miguel. He's Script Hub Is Ugly Asf.", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/AC48aPff"))();
+end)
+
+Tab6Section:NewButton("Backdoor.exe", "For Require Scripts", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/iK4oS/backdoor.exe/v8/src/main.lua"))();
+end)
+
+Tab6Section:NewButton("AkilBlox14's Script Hub v1.0", "Most Baddest Version Ever.", function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/QGYnXJDA'),true))()
+end)
+
+Tab6Section:NewButton("R15 FE Fling Spin", "No Hats! btw execute it again and again to make it fast.", function()
+power = 250 -- change this to make it more or less powerful
+ 
+game:GetService('RunService').Stepped:connect(function()
+game.Players.LocalPlayer.Character.Head.CanCollide = false
+game.Players.LocalPlayer.Character.UpperTorso.CanCollide = false
+game.Players.LocalPlayer.Character.LowerTorso.CanCollide = false
+game.Players.LocalPlayer.Character.HumanoidRootPart.CanCollide = false
+end)
+wait(.1)
+local bambam = Instance.new("BodyThrust")
+bambam.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+bambam.Force = Vector3.new(power,0,power)
+bambam.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+end)
+
+end)
+
+Tab6Section:NewButton("Mobile Hub", "By ??? AkilBlox14 Got Inspired.", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/g1CG7iCi'))()
+end)
+
+Tab6Section:NewButton("PSX Pet Visual Changer", "Finally Done With Those Ads?", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/539551936/psxscripts/main/VisualPets.lua"))()
+end)
+
+Tab6Section:NewButton("PSX #3", "Its A Hub.", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Boxking776/GrubHub/main/free/PSXFree.lua"))()
+end)
+
+Tab6Section:NewButton("NetBypass 2", "Info2", function()
+for i,v in next, game:GetService("Players").LocalPlayer.Character:GetDescendants() do
+    if v:IsA("BasePart") and v.Name ~="HumanoidRootPart" then 
+        game:GetService("RunService").Heartbeat:connect(function()
+            v.Velocity = Vector3.new(-25.6,0,0)
+end)
+game:GetService("RunService").Heartbeat:connect(function()
+    wait(.01)
+    v.Velocity = Vector3.new(0,0,0)
+        end)
+    end
+end
+end)
+
+Tab6Section:NewButton("Hat Hub", "Augh", function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/h6YbQ5nZ'),true))()
+end)
+
+Tab6Section:NewButton("JohnDoe v1.2 Ss test", "Its a Button For Developer.", function()
+require(6305379088)["S"]["T"]["R"]["A"]["N"]["G"]["E"]["R"]("AkilBlox14")
+end)
+
+Tab6Section:NewButton("Blox Fruits Auto Farm", "Best Autofarm", function()
+loadstring(game:HttpGet('https://rawscripts.net/raw/UPDATE-16-Blox-Fruits-Nub-V1-Hub-4583'))()
+end)
+
+Tab6Section:NewButton("UTG", "Troll", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Blukez/Scripts/main/UTG%20V3%20RAW"))()
+end)
+
+Tab6Section:NewButton("Click Me", "Info", function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/YsVaUfYQ'),true))()
+end)
+
+Tab6Section:NewButton("Dont Trust That Thing! ☝️", "Secret Hub :)", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/IlikeyocutgHAH12/MoonUI-v10-/main/MoonUI%20v10'))()
+end)
+
+Tab6Section:NewButton("Melon Hub", "R6 Script And Netless GUI Needed", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/jABW2bLp"))();
+end)
+
+Tab6Section:NewButton("R6 Script", "Make Your Self to r6!", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/ErJ7MBCy"))();
+end)
+
+Tab6Section:NewButton("Space X Dahood", "Op Hub", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/spacexrandom/Lua/main/DaHood", true))()
+end)
+
+Tab6Section:NewButton("IT TOOK ME 7 DAYS FOR V1.1", "Ty For Using My Script Hub!", function()
+ print("Oh... V1.0 Is Bad..")
+end)
+
+
+-- Tab7
+Tab7Section:NewButton("https://m.youtube.com/@sirapplebg434/featured", "Youtube Channel", function()
+    print("Akil's Yt Channel <3")
+end)
+
+Tab7Section:NewButton("Tiktok: @noobination1", "Tiktok Account", function()
+    print("UwU")
+end)
+
+
+-- Tab8
+Tab8Section:NewButton("https://m.youtube.com/@sirapplebg434/featured", "Youtube Channel", function()
+    print("Akil's Yt Channel <3")
+end)
+
