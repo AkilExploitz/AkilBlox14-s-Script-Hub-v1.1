@@ -15,7 +15,7 @@ local Section = Tab:AddSection({
 })
 
 local Section = Tab:AddSection({
-	Name = "- Added Localplayer, Visuality, Hub and GUI's, Animations, Admin,"
+	Name = "- Added Visuality, Hub and GUI's, Animations, Admin,"
 })
 
 local Section = Tab:AddSection({
@@ -76,37 +76,22 @@ local Section = Tab:AddSection({
 
 OrionLib:Init()
 
-local Tab = Window:MakeTab({
-	Name = "Localplayer [Test]",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
 
-Tab:AddButton({
-	Name = "Respawn (Fast)",
-	Callback = function()
-      		print("Face Fabd Egac THE F- Ace RACEEEEE")
-  	end    
-})
+      		
+  	   
 
-Tab:AddButton({
-	Name = "Reset",
-	Callback = function()
-      		loadstring(game:HttpGet((''https://pastebin.com/bNb4JGQk'),true))()
-  	end    
-})
 
-Tab:AddButton({
-	Name = "Rejoin",
-	Callback = function()
-      		loadstring(game:HttpGet((''https://pastebin.com/bNb4JGQk'),true))()
-  	end    
-})
+
+	
+	
+      		
+  	  
 
 
 
 
-OrionLib:Init()
+
+
 
 local Tab = Window:MakeTab({
 	Name = "Game Scripts",
