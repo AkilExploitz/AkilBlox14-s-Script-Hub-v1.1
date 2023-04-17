@@ -1,0 +1,133 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "VloxHub v1.2 (Blox Fruits)", HidePremium = false, IntroText = "VloxHub (Blox Fruits)", SaveConfig = true, ConfigFolder = "OrionTest"})
+local Tab = Window:MakeTab({
+	Name = "Main",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Hello! Wellcome To VloxHub 1.2! Made By AkilBlox14!"
+})
+
+local Section = Tab:AddSection({
+	Name = "Updated Logs:"
+})
+
+local Section = Tab:AddSection({
+	Name = "- Added: Blox Fruit Hubs.
+})
+
+local Section = Tab:AddSection({
+	Name = "Removed: Some 1.1 Stuff"
+})
+
+local Section = Tab:AddSection({
+	Name = "Dirty Looks Removed"
+})
+
+local Section = Tab:AddSection({
+	Name = "Cleaned Tab Look"
+})
+
+local Section = Tab:AddSection({
+	Name = "This Is Even Private. If You find this script, you need a oscar."
+})
+
+OrionLib:MakeNotification({
+	Name = "Loading...",
+	Content = "Hub Loading In... Hold Up!",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+
+
+
+
+OrionLib:Init()
+
+local Tab = Window:MakeTab({
+	Name = "Hubs/Autofarm Hubs",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "G00byD0lan GUI (Sponsored)",
+	Callback = function()
+      		loadstring(game:HttpGet(('https://pastebin.com/raw/pzy75kNd'),true))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Pado Hub",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/REWzaKunGz1/premium/main/PadoHub'))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Hoho Hub [PATCHED?]",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Zaque Hub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Mei2232/ZaqueHub/main/Zaque%20Hub"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Hubris Hub (Autofarm fruits)",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastebin.com/raw/QRyiJk8Q"))();
+  	end    
+})
+
+Tab:AddButton({
+	Name = "PlayBack X Hub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/NeaPchX2/Playback-X-HUB/main/Protected.lua.txt"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Fusion Hub",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/SHAREHACK/script/main/fusion1'))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Master X Hub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/BlodyXHub/Xeniel_All/main/ForAll"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "String X",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/StringV2/StringHub/main/BF.txt", true))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Blaze X",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/WindowsXp12/BlxzeRBLX/main/BLxzeHub.lua"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "2x Hub",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/NeaPchX2/2XHUB-UPDBIG/main/README.md', true))()
+  	end    
+
+local Section = Tab:AddSection({
+	Name = "2 hours of waste of a hub. bet yall fucking hate this."
+})
