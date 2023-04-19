@@ -1,0 +1,130 @@
+local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+local Window = Library.CreateLib("AkilBlox14's Ultimate Troll Hub V1.5", "Ocean")
+
+-- Tabs
+local Tab1 = Window:NewTab("•Home")
+local Tab2 = Window:NewTab("•Trolls")
+local Tab3 = Window:NewTab("•Visuals")
+local Tab4 = Window:NewTab("•Credits")
+
+
+-- Sections inside tabs
+local Tab1Section = Tab1:NewSection("1.5 Update:")
+local Tab1Section = Tab1:NewSection("- Added New Theme")
+local Tab1Section = Tab1:NewSection("- Added Scripts and secrets!")
+local Tab1Section = Tab1:NewSection("- Fixed Errors!")
+local Tab1Section = Tab1:NewSection("- Added 15+ Scripts!")
+local Tab1Section = Tab1:NewSection("Quick Hacks")
+local Tab2Section = Tab2:NewSection("Note: THE MISSING SCRIPTS ARE FINALLY RECOVERED!")
+local Tab2Section = Tab2:NewSection("How the scripts went missing? Dont Ask.")
+local Tab3Section = Tab3:NewSection("Visuals/affect your speed and some stuff.")
+local Tab4Section = Tab4:NewSection("Credits To AkilBlox14 And Script Owners!")
+
+
+-- Buttons
+Tab1Section:NewButton("Infinite Yield", "Infinite Yields", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+Tab1Section:NewButton("Keyboard Script", "For FE Scripts", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+end)
+
+Tab1Section:NewButton("Players ESP", "You Can See People", function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/zachisfunny/esp-unversal/main/script'),true))()
+end)
+
+Tab1Section:NewButton("Better Roblox UI", "Better Gameplay", function()
+getgenv().DisableWebhook = false
+loadstring(game:HttpGet("https://eternityhub.xyz/BetterRoblox/Loader"))()
+end)
+
+Tab1Section:NewButton("VHub", "200+ Scripts In One", function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Veincx5315/Created/VHub/Simple'),true))()
+end)
+
+Tab1Section:NewButton("Netless/Netbypass GUI", "Useful.", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/ULA6Y3gH", true))()
+end)
+
+Tab1Section:NewButton("Fly GUI", "Fly everygame! anywhere!", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/TeNifRrX"))();
+end)
+
+Tab2Section:NewButton("Shiftlock", "Perfect For Mobile!", function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/4BZuyqvc'),true))()
+end)
+
+-- Tab2
+Tab2Section:NewButton("Fling GUI", "It Auto Updates", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/r97d7dS0', true))()
+end)
+
+Tab2Section:NewButton("FE Punch", "Flings and no hats.", function()
+loadstring(game:HttpGet(('https://pastefy.ga/GvnHVjT5/raw'),true))()
+end)
+
+Tab2Section:NewButton("FE Ranged Fling", "No Hats", function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/gJC4kvgy'),true))()
+end)
+
+Tab2Section:NewButton("FE Jumpscare", "shows everyone the creeps!", function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/YsVaUfYQ'),true))()
+end)
+
+Tab2Section:NewButton("Fe Yeet GUI", "Yayt!", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/saMtiek2",true))()
+end)
+
+Tab2Section:NewButton("UTG #1", "Interdemensional", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Blukez/Scripts/main/UTG%20V3%20RAW"))()
+end)
+
+Tab2Section:NewButton("FE UTG (#2)", "Interdemensional 2", function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/4BZuyqvc'),true))()
+end)
+
+Tab2Section:NewButton("FE UTG (#3)", "Interdemensional 3", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/2dgeneralspam1/Sniff-Hub/main/Sniff%20Hub'))()
+end)
+
+Tab2Section:NewButton("FE UTG (#4)", "Interdemensional 4", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/HubbyScripts/FE-Trolling-Hub/main/source"))()
+end)
+
+Tab2Section:NewButton("Ak!lBl0x14 Gui", "Cilent Sided :/", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/CAxWSzxQ'))();
+end)
+
+-- Tab3
+Tab3Section:NewButton("Infinite Jumps", "Enables Inf Jumps", function()
+    local InfiniteJumpEnabled = true
+game:GetService("UserInputService").JumpRequest:connect(function()
+	if InfiniteJumpEnabled then
+		game:GetService"Players".LocalPlayer.Character:FindFirstChildOfClass'Humanoid':ChangeState("Jumping")
+	end
+end)
+end)
+
+Tab3Section:NewToggle("Fov", "Makes your screen wider.", function(state)
+    if state then
+        game.Workspace.CurrentCamera.FieldOfView = 120
+    else
+        game.Workspace.CurrentCamera.FieldOfView = 80
+    end
+end)
+
+Tab3Section:NewSlider("Speed", "Sonic The Hedgehog", 250, 120, function(v)
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = v
+end)
+
+
+-- Tab4
+Tab4Section:NewButton("placeholder #2", "Hold", function()
+    print("Akil Youre Kicked In The Group! You are banned from the group! youre no longer a contributer XD -Zafina and Monique")
+end)
+
+Tab4Section:NewButton("placeholder #3", "what a normal placeholder :'(", function()
+    print("But. Yea. I Did whats best and they kicked me off. Im sorry for everything. -Akil")
+end)
+
