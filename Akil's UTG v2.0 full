@@ -1,0 +1,45 @@
+local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+local Window = Library.CreateLib("Ultimate Trolling GUI", "Ocean")
+
+--Tabs
+local Tab1 = Window:NewTab("Main")
+local Tab2 = Window:NewTab("Credits")
+
+
+--Sections Inside Tabs
+local Tab1Section = Tab1:NewSection("Pick a version before you start.")
+local Tab2Section = Tab2:NewSection("Credits To AkilBlox14 and SpidaX!")
+local Tab2Section = Tab2:NewSection("Contact Me If Anything Is Wrong!")
+local Tab2Section = Tab2:NewSection("Write Your Message In The Textbox!")
+
+
+--Buttons
+Tab1Section:NewButton("V1.0", "made it! -Old Me", function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/QGYnXJDA'),true))()
+end)
+
+Tab1Section:NewButton("V1.2", "ChangChong", function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/YsVaUfYQ'),true))()
+end)
+
+Tab1Section:NewButton("V1.5", "Finally The Real One.", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/AkilExploitz/AkilBlox14-s-Script-Hub-v1.1/9abbc0733af7c9113a5ecbaf4bb2ed5013a4e693/Ultimate%20Trolling%20GUI%20v1.5'))()
+end)
+
+Tab1Section:NewButton("V2.0", "New And Improved", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/3GUM9fzx"))();
+end)
+
+Tab1Section:NewButton("Bonus", "Yea. 1 More.", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/QNrtLBiU"))();
+end)
+
+
+--Tab2
+Tab2Section:NewTextBox("Textbox", "Hey. Let me tell you a secret, Bū|€∆n", function(txt)
+	print(txt)
+end)
+
+Tab2Section:NewButton("It Will Send Right Away!", "New", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/a6QKhiaq"))();
+end)
