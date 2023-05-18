@@ -1,0 +1,63 @@
+local DiscordLib =
+
+    loadstring(game:HttpGet "https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/discord")()
+
+local win = DiscordLib:Window("UTH 2.2a")
+
+local serv = win:Server("Main", "")
+
+local btns = serv:Channel("Home")
+
+local lbls = serv:Channel("Update Logs")
+
+lbls:Label("Welcome To Version 2.2!")
+
+lbls:Label("Here Are The Following Changes:")
+
+lbls:Label("- Added OP Fling Scripts ✓")
+
+lbls:Label("- Changed UTH Name ✓")
+
+lbls:Label("- Updated Every Single One ✓")
+
+lbls:Label("- Added 20+ Secrets And Easter Eggs! ✓")
+
+lbls:Label("- Added 50+ Fling Scripts on the script hubs! ✓")
+
+lbls:Label("- Added New Font ✓")
+
+lbls:Label("Devnote: Shoutout to Leyla_Alizade for requesting scripts!")
+
+lbls:Label("(The Scripts Is On Mocha Hub!)")
+
+lbls:Label("Key: TheKeyOfAtlantis")
+
+lbls:Label("Thank you for using Hamster's/AkilBlox14's UTH!")
+
+btns:Button(
+
+    "Launch 2.2",
+
+    function()
+
+    loadstring(game:HttpGet("https://pastebin.com/raw/msnH9jSt"))();
+
+        DiscordLib:Notification("Notification", "Version Executed.", "Okay!")
+
+    end
+
+)
+
+btns:Button(
+
+    "Devnote: Thank you Leyla_Alizade for being a supportive fan!",
+
+    function()
+
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/AkilExploitz/AkilBlox14-s-Script-Hub-v1.1/main/Corrupted%20file'))()
+
+        DiscordLib:Notification("Warning", ".-.. . .- ...- . / -. --- .-- .-.-.- / - .... .. ... / .. ... -. - / .- / .--- --- -.- . .-.-.- / .-.. . .- ...- . -.-.--", " I Must Obey.")
+
+    end
+
+)
