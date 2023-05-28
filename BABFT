@@ -1,0 +1,59 @@
+local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+
+local Window = Library.CreateLib("Hamster's BABFT Script Ultimate", "Ocean")
+
+-- Tabs
+
+local Tab1 = Window:NewTab("Home")
+
+local Tab2 = Window:NewTab("Credits")
+
+--Sections Inside Tabs
+
+local Tab1Section = Tab1:NewSection("v1.0 update: added like +5 scripts.")
+
+local Tab2Section = Tab2:NewSection("Made By HamsterShowcaser")
+
+local Tab2Section = Tab2:NewSection("Scripts By The Owners")
+
+-- Buttons
+
+Tab1Section:NewButton("Autofarm", "No More Yielding For Today", function()
+
+loadstring(game:HttpGet("https://pastebin.com/raw/NQbKPheB"))();
+
+loadstring(game:HttpGet('https://pastebin.com/raw/kP7f6mFC'))()
+
+end)
+
+Tab1Section:NewButton("Load Old Quests Scripts", "FE? You can do this again and again.", function()
+
+loadstring(game:HttpGet("https://pastebin.com/raw/NQbKPheB"))();
+
+loadstring(game:HttpGet('https://pastebin.com/raw/wZcf0PwT'))()
+
+end)
+
+Tab1Section:NewButton("Infinite Blocks Script", "FE!!! Reset To Stop.", function()
+
+loadstring(game:HttpGet("https://pastebin.com/raw/NQbKPheB"))();
+
+loadstring(game:HttpGet("https://pastebin.com/raw/vtMMtAfj"))();
+
+end)
+
+Tab1Section:NewButton("Auto Builder", "FE.", function()
+
+loadstring(game:HttpGet("https://pastebin.com/raw/NQbKPheB"))();
+
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/VertigoCool99/Script/main/BuildABoat/BuildABoatRestored.lua"),true))()
+
+end)
+
+Tab1Section:NewButton("OP hub", "yeaaa...", function()
+
+loadstring(game:HttpGet("https://pastebin.com/raw/NQbKPheB"))();
+
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/zachisfunny/Build-a-Boat-OP-Script/main/Script'),true))()
+
+end)
