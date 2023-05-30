@@ -22,7 +22,7 @@ Tab1Section:NewButton("Autofarm", "No More Yielding For Today", function()
 
 loadstring(game:HttpGet("https://pastebin.com/raw/NQbKPheB"))();
 
-loadstring(game:HttpGet('https://pastebin.com/raw/kP7f6mFC'))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/XRoLLu/UWU/main/BUILD%20A%20BOAT%20FOR%20TREASURE.lua'))()
 
 end)
 
