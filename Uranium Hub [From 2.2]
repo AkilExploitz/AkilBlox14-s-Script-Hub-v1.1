@@ -1,0 +1,332 @@
+ local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Rayfield/main/source'))()
+
+  local Window = Rayfield:CreateWindow({
+	Name = "Uranium Hub",
+	LoadingTitle = "Uranium Hub",
+	LoadingSubtitle = "by HamsterShowcaser",
+	ConfigurationSaving = {
+		Enabled = true,
+		FolderName = nil, -- Create a custom folder for your hub/game
+		FileName = "Uranium Hub"
+	},
+        Discord = {
+        	Enabled = true,
+        	Invite = "K6JDqbwgc8", -- The Discord invite code, do not include discord.gg/
+        	RememberJoins = true -- Set this to false to make them join the discord every time they load it up
+        },
+	KeySystem = true, -- Set this to true to use our key system
+	KeySettings = {
+		Title = "Uranium Hub Key System",
+		Subtitle = "Key System",
+		Note = "The Key Will Be Saved! No Worries!",
+		FileName = "SiriusKey",
+		SaveKey = true,
+		GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
+		Key = "Supernovae"
+	}
+  })
+
+ Rayfield:Notify({
+    Title = "Uranium Hub",
+    Content = "Made by HamsterShowcaser. Have A Nice Day!",
+    Duration = 5,
+    Image = 4483362458,
+    Actions = { -- Notification Buttons
+        Cool = {
+            Name = "Alr",
+            Callback = function()
+                print("Made by Hamster!1!1!1 Have a nice exploiting day.")
+            end
+		},
+        FYU = {
+            Name = "Ugh",
+            Callback = function()
+                print("Ok geez chill calm the heck down.")
+            end
+		},
+	},
+ })
+
+ wait(0.25)
+
+ local Tab1 = Window:CreateTab("Welcome Logs", 4483362458) -- Title, Image
+
+ local Tab2 = Window:CreateTab("Main", 4483362458) 
+
+ local Tab3 = Window:CreateTab("Extras", 4483362458) 
+
+ local Section = Tab1:CreateSection("Some Credits")
+
+ local Button = Tab1:CreateButton({
+	Name = "Hub by Hamster",
+	Callback = function()
+		Rayfield:Notify({
+         Title = "HamsterShowcaser",
+         Content = "Created by HamsterShowcaser. Youtube Channel Clipboarded.",
+         Duration = 2,
+         Image = 4483362458,
+         Actions = { -- Notification Buttons
+         Ignore = {
+            Name = "Poggers",
+            Callback = function()
+                setclipboard("https://m.youtube.com/channel/UCdcAeQamzTtQNfMLIw6OtFQ")
+            end
+		},
+	},
+ })
+	end,
+ })
+
+ local Button = Tab1:CreateButton({
+	Name = "UI Lib: Rayfield by Sirius",
+	Callback = function()
+		Rayfield:Notify({
+        Title = "Rayfield",
+        Content = "UI Library by Sirius. Their Discord set to clipboard",
+        Duration = 6.5,
+        Image = 4483362458,
+        Actions = { -- Notification Buttons
+         Ignore = {
+            Name = "Cool",
+            Callback = function()
+                setclipboard('https://discord.gg/sirius')
+            end
+		},
+	},
+  }) 
+	end,
+ })
+
+ local Section = Tab2:CreateSection("Main features")
+
+ local Button = Tab2:CreateButton({
+	Name = "FE New Fly Script",
+	Callback = function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/YvKv4AuY"))();
+	end,
+ })
+
+ local Button = Tab2:CreateButton({
+	Name = "FE Reanimation/Hammer",
+	Callback = function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/nNSuskqK",true))()
+	end,
+ })
+
+ local Button = Tab2:CreateButton({
+	Name = "Bido Skins v1.3",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/BidoSkinsYT/BidoSkinsYT/main/Bido%20Skins%20V1.3"))()
+	end,
+ })
+
+local Button = Tab2:CreateButton({
+	Name = "FE Rizz ",
+	Callback = function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/pPMRh5YJ"))()
+	end,
+ })
+ 
+ local Button = Tab2:CreateButton({
+	Name = "Gabx",
+	Callback = function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/NEBzS2v4"))();
+	end,
+ })
+
+local Section = Tab2:CreateSection("What Kind Of Notification Script Should I Use On The Future Updates On UTH?")
+
+ local Button = Tab2:CreateButton({
+	Name = "Notifi 1",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/AkilExploitz/AkilBlox14-s-Script-Hub-v1.1/main/Notifi%201"))();
+	end,
+ })
+
+ local Button = Tab2:CreateButton({
+	Name = "Notifi 2",
+	Callback = function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/BBva15cK"))();
+	end,
+ })
+ 
+ local Section = Tab2:CreateSection("Some Game Scripts")
+
+ local Button = Tab2:CreateButton({
+	Name = "BABFT Script",
+	Callback = function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/AkilExploitz/AkilBlox14-s-Script-Hub-v1.1/main/BABFT'))()
+	end,
+ })
+
+ local Button = Tab2:CreateButton({
+	Name = "BABFT Script AutoFarm",
+	Callback = function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/XRoLLu/UWU/main/BUILD%20A%20BOAT%20FOR%20TREASURE.lua'))()
+	end,
+ })
+
+ local Section = Tab3:CreateSection("Extras and credits")
+
+ local Button = Tab3:CreateButton({
+	Name = "ESP",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/WinterDinder/esp/main/espman"))() 
+	end,
+ })
+
+ local Button = Tab3:CreateButton({
+	Name = "RTX Shader",
+	Callback = function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/uqD7VqQU"))();
+	end,
+ })
+ local Button = Tab3:CreateButton({
+	Name = "RTX Shader + Anti Lag",
+	Callback = function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/uqD7VqQU"))();
+		loadstring(game:HttpGet("https://pastebin.com/raw/zJztwUg1"))();
+	end,
+ })
+ local Button = Tab3:CreateButton({
+	Name = "FE Lag Toggle",
+	Callback = function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/HckRm6E1"))();
+	end,
+ })
+ local Button = Tab3:CreateButton({
+	Name = "Fling GUI (By X)",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/0Ben1/fe./main/Fling%20GUI"))()
+	end,
+ })
+ local Button = Tab3:CreateButton({
+	Name = "Click Fling",
+	Callback = function()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/0Ben1/fe/main/obf_5wpM7bBcOPspmX7lQ3m75SrYNWqxZ858ai3tJdEAId6jSI05IOUB224FQ0VSAswH.lua.txt'),true))()
+	end,
+ })
+  local Button = Tab3:CreateButton({
+	Name = "Fling Again?",
+	Callback = function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/Ud1cg5pR"))()
+	end,
+ })
+ local Button = Tab3:CreateButton({
+	Name = "Hub",
+	Callback = function()
+		setclipboard('https://scriptblox.com/script/Demonfall-2.65-DemonFall-Script-Hub-(6-Scripts)-1303') 
+	end,
+ }) 
+  local Slider = Tab3:CreateSlider({
+	Name = "Character Walkspeed (16 default)",
+	Range = {16, 500},
+	Increment = 1,
+	Suffix = "Studs/s",
+	CurrentValue = 10,
+	Flag = "Character Walkspeed", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
+	Callback = function(Value)
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = (Value)
+	end,
+ })
+
+ local Slider = Tab3:CreateSlider({
+	Name = "Character JumpPower (Not recommended) (50 default)",
+	Range = {50, 500},
+	Increment = 1,
+	Suffix = "B/s",
+	CurrentValue = 10,
+	Flag = "Character Jump Power", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
+	Callback = function(Value)
+		game.Players.LocalPlayer.Character.Humanoid.JumpPower = 255
+	end,
+ })
+
+
+ local Button = Tab3:CreateButton({
+	Name = "Infinite Yield",
+	Callback = function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))() 
+	end,
+ })
+ local Button = Tab3:CreateButton({
+	Name = "Orca",
+	Callback = function()
+		loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/richie0866/orca/master/public/latest.lua"))() 
+	end,
+ })
+
+ local Button = Tab3:CreateButton({
+	Name = "Hub by HamsterShowcaser!",
+	Callback = function()
+		print("Ur balls smell dry") 
+	end,
+ })
+ local Button = Tab3:CreateButton({
+	Name = "UI Lib: Rayfield by Sirius",
+	Callback = function()
+		print("STFU") 
+	end,
+ })
+
+ local Section = Tab3:CreateSection("Dangerous")
+
+ local Button = Tab3:CreateButton({
+	Name = "Destroy GUI",
+	 Callback = function()
+	  print("Killing GUI... Have a nice day/evening")
+      Rayfield:Notify({
+       Title = "Rayfield",
+       Content = "Killing GUI.",
+       Duration = 6.5,
+       Image = 4483362458,
+       Actions = { -- Notification Buttons
+        Ignore = {
+            Name = "...",
+            Callback = function()
+                print("...")
+            end
+		},
+	},
+  })
+
+	 wait(1.5)
+
+		Rayfield:Destroy() 
+	end,
+ })
+
+ local Button = Tab3:CreateButton({
+	Name = "Kill Game",
+	Callback = function()
+		Rayfield:Notify({
+         Title = "Rayfield",
+         Content = "Are you sure? Click no to abort",
+         Duration = 1,
+         Image = 4483362458,
+         Actions = { -- Notification Buttons
+          Yes = {
+            Name = "Yes",
+            Callback = function()
+                game.Players.LocalPlayer:Kick"Everyone has been kicked. including you mfa"
+            end
+            },
+           No = {
+            Name = "No",
+            Callback = function()
+                print("Aborted")
+            end
+		},
+	},
+   })
+	end,
+  })
+
+ local Section = Tab3:CreateSection("Make Your Device Die!")
+
+   local Button = Tab3:CreateButton({
+	Name = "F25 Key? (DO NOT click.)",
+	Callback = function()
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/WinterDinder/super-duper-memory/main/virus%20ads%20lmao"))()
+	end,
+ })
